@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
 export default function HeadObject({children}) {
-    const title = "Anomaly Science";
-    const description = "We're redefining what it means to create.";
-    const keywords = "science, camp, create, generator, startup";
-    const author = "Anomaly Science";
-    const twitter = "@anomalyscience";
+    const title = "The Perfect Next.js Theme";
+    const description = "This is the perfect Next.js theme that you should use instead of create-next-app.";
+    const keywords = "put some fun keywords here";
+    const author = "Sarthak Mohanty";
+    const twitter = "@sarthaktexas";
     //const image = "/ogimage.png"; // This is your OpenGraph image
     return (
         <Head>
@@ -16,15 +16,15 @@ export default function HeadObject({children}) {
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
             <meta name="author" content={author} />
-            <meta property="og:url" content="https://anomaly-science.com" /> {/* This is where you put the domain */}
+            <meta property="og:url" content="put it in this quotes" /> {/* This is where you put the domain */}
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            {/* <meta property="og:image" content={image} /> */}
+            <meta property="og:image" content={image} />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content={twitter} />
             <meta name="twitter:creator" content={twitter} />
-            <script async defer data-website-id="220e23c0-7955-419d-b679-87043b1be0e2" src="https://analytics.sarthakmohanty.me/umami.js"></script>
+            {/* Add analytics here */}
             {children}
         </Head>
     )
