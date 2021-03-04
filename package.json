@@ -1,6 +1,7 @@
 {
-  "name": "perfect-next-theme",
-  "version": "0.1.0",
+  "name": "anomaly-site",
+  "version": "1.0.0",
+  "author": "Sarthak Mohanty<sarthak@sarthakmohanty.me>",
   "private": true,
   "scripts": {
     "dev": "next dev",
